@@ -43,3 +43,10 @@ curl -X POST \
 4) Removing the user:
 ```curl -X DELETE \
   http://localhost:[PORT]Customer/Index/<id>```
+  
+  
+TODO:
+- Frontend application in Angular 5 with lazy module loading on the other hosting
+- Some authorization
+- Api versioning
+- Additional unit testing

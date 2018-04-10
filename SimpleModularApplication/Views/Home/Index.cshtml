@@ -1,0 +1,20 @@
+﻿@model SimpleModularApplication.ViewModels.HomeViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Simple Modular Application Welcome</h1>
+
+<ul class="nav nav-pills" style="background: #eee; margin-top: 10px; margin-bottom: 10px;">
+    @foreach (var i in Model.Modules)
+    {
+        <li class="nav-item">@i</li>
+    }
+</ul>
+
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h2 class="display-4">Simple modular application</h2>
+        <p class="lead">Backend modules can be invoked by curl or postman</p>
+    </div>
+</div>

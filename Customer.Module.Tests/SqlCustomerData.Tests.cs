@@ -12,7 +12,6 @@
     {
         private SqlCustomerData cut;
         private Mock<ICustomerDbContext> dbContext;
-        private List<Customer> list;
         private Mock<DbSet<Customer>> dbSet;
         private Mock<Customer> lockedUser;
 

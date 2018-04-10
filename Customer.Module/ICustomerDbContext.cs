@@ -6,7 +6,7 @@
     {
         DbSet<Common.Models.Customer> Customers { get; set; }
 
-        void SaveChanges();
+        int SaveChanges();
 
         void Update(Common.Models.Customer customer);
     }

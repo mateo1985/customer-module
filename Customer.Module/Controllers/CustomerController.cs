@@ -47,7 +47,7 @@ namespace Customer.Module.Controllers
                 return this.BadRequest(this.ModelState);
             }
 
-            if (!customer.Id.HasValue)
+            if (customer.Id.HasValue)
             {
                 return this.BadRequest(new { Id = "The Id field should be empty" });
             }

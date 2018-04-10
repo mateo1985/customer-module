@@ -1,3 +1,6 @@
+CREATE DATABASE [SimpleModularApplication];
+GO
+
 USE [SimpleModularApplication]
 GO
 

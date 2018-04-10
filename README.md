@@ -10,12 +10,12 @@ This is the application for presenting possibilities of modularity in MVC. To be
 After this step you have your appliation up and running.
 1) Get all users
 
-```curl -X GET \
-  http://localhost:[PORT]/Customer```
+`curl -X GET \
+  http://localhost:[PORT]/Customer`
   
 2) Put the user to database:
 
-```curl -X PUT \
+`curl -X PUT \
   http://localhost:[PORT]/Customer \
   -H 'content-type: application/json' \
   -d '{
@@ -23,12 +23,11 @@ After this step you have your appliation up and running.
 	"Surrname": "ExampleSurrname",
 	"Telephone": "+481231231",
 	"Address": "BoleslawaChrobrego 123"
-}'```
+}'`
 
 3) Updating the user:
 
-```
-curl -X POST \
+`curl -X POST \
   http://localhost:[PORT]/Customer \
   -H 'content-type: application/json' \
   -d '{
@@ -38,11 +37,11 @@ curl -X POST \
 	"Telephone": "+481231231",
 	"Address": "Test address"
 }'
-```
+`
 
 4) Removing the user:
-```curl -X DELETE \
-  http://localhost:[PORT]Customer/Index/<id>```
+`curl -X DELETE \
+  http://localhost:[PORT]Customer/Index/<id>`
   
   
 TODO:

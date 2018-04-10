@@ -2,9 +2,9 @@ curl -X POST \
   http://localhost:5000/Customer \
   -H 'content-type: application/json' \
   -d '{
-	"Id": "50002",
+	"Id": "2",
 	"Name": "SomeName",
-	"Surrname": "OtherSurrname",
+	"Surrname": "CHANGED",
 	"Telephone": "+481231231",
 	"Address": "Test address222"
 }'

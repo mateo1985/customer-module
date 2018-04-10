@@ -8,12 +8,12 @@ This is the application for presenting possibilities of modularity in MVC. To be
 4) Go to folder ./SimpleModularApplication and run command 'dotnet run'
 
 After this step you have your appliation up and running.
-1) Get all users
+1) Get all users run the script 'get-all-users.sh' or run
 
 `curl -X GET \
   http://localhost:[PORT]/Customer`
   
-2) Put the user to database:
+2) Put the user to database run the 'put-user.sh' or run
 
 `curl -X PUT \
   http://localhost:[PORT]/Customer \
@@ -25,7 +25,7 @@ After this step you have your appliation up and running.
 	"Address": "BoleslawaChrobrego 123"
 }'`
 
-3) Updating the user:
+3) Updating the user run 'update-user.sh' or run
 
 `curl -X POST \
   http://localhost:[PORT]/Customer \
@@ -39,7 +39,7 @@ After this step you have your appliation up and running.
 }'
 `
 
-4) Removing the user:
+4) Removing the user run the 'remove-user.sh' or
 `curl -X DELETE \
   http://localhost:[PORT]Customer/Index/<id>`
   
